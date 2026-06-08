@@ -1,8 +1,8 @@
 class Bjir < Formula
-  desc "Bloat Judgement & I/O Refiner"
+  desc "Bloat Judgement & I/O Refiner for prompts, logs, diffs, traces, and command output"
   homepage "https://github.com/gogetrekt/bjir"
-  url "https://github.com/gogetrekt/bjir/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "a4cc6669319a2bb692f9ebd9e7c8ab5e914335cb22ce0d0f03baf690d75d8489"
+  url "https://github.com/gogetrekt/bjir/archive/refs/tags/v0.1.38.tar.gz"
+  sha256 "7360485e7f48ad9bf8eb45ab99dcbe654928cec34053cb33c8d836be09505383"
   license "Apache-2.0"
 
   depends_on "rust" => :build
